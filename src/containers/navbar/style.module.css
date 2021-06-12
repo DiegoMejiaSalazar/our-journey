@@ -1,0 +1,5 @@
+.container {
+    padding-top: var(--top-bottom-padding-navbar);
+    padding-bottom: var(--top-bottom-padding-navbar);
+}
+

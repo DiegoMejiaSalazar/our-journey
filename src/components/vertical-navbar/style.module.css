@@ -1,0 +1,23 @@
+.container {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(0deg,var(--primary-color),var(--secondary-color));
+    display: flex;
+    flex-direction: column;
+    row-gap: 2em;
+}
+.separatorContainer {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.separator {
+    color:white;
+}
+
+.title {
+    padding-top: 1em;
+    color: white;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,13 @@
+.container {
+    font-size: var(--font-size-m);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: flex;
+    column-gap: var(--icon-column-gap);
+}
+
+.topBar {
+    height: 3em;
+}
