@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
     row-gap: 2em;
+    border-radius: 16px;
 }
 .separatorContainer {
     padding-left: 1em;
