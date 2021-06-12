@@ -22,3 +22,15 @@
     display: flex;
     justify-content: center;
 }
+
+.userLinks {
+    padding-left: 1em;
+    padding-right: 1em;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+}
+
+.userLink {
+    color: white;
+}

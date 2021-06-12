@@ -10,9 +10,9 @@ function VerticalNavbar({userOptions, title}) {
         <div className={style.separatorContainer}>
             <hr className={style.separator}/>
         </div>
-        <div>
+        <div className={style.userLinks}>
             {userOptions.map(option => {
-                return <div onClick={option.onClick}>
+                return <div className={style.userLink} onClick={option.onClick}>
                     {option.name}
                 </div>
             })}
