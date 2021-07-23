@@ -25,5 +25,12 @@
 
 .userView {
     background-color: coral;
+    border-radius: var(--border-radius-user-view);
+    height: 100%;
+    width: 100%;
+}
+
+.userViewContainer {
+    padding: 1em;
     grid-column: 2;
 }

@@ -12,7 +12,7 @@ function VerticalNavbar({userOptions, title}) {
         </div>
         <div className={style.userLinks}>
             {userOptions.map(option => {
-                return <div className={style.userLink} onClick={option.onClick}>
+                return <div key={option.id} className={style.userLink} onClick={option.onClick}>
                     {option.name}
                 </div>
             })}

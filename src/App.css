@@ -11,4 +11,6 @@
     --navbar-options-gap: 18px;
     --top-bottom-padding-navbar: 1em;
     --user-profile-options-height: 3em;
+    --border-radius-vertical-navbar: 16px;
+    --border-radius-user-view: 16px;
 }
