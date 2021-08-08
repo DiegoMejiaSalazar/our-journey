@@ -5,12 +5,14 @@
     --font-size-l: 1.2em;
     --font-size-xl: 1.8em;
     --font-size-xll: 2em;
-    --primary-color: #40bfff;
-    --secondary-color: #0e38a1;
+    --primary-color: #3358f4;
+    --secondary-color: #1d8cf8;
     --icon-column-gap: 4px;
     --navbar-options-gap: 18px;
     --top-bottom-padding-navbar: 1em;
     --user-profile-options-height: 3em;
     --border-radius-vertical-navbar: 16px;
     --border-radius-user-view: 16px;
+    --main-background-color: #1e1e2e;
+    --tertiary-color: #27293d;
 }

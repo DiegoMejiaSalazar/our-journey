@@ -4,7 +4,7 @@ import VerticalNavbar from "./../../components/vertical-navbar";
 
 function Home() {
     const userOptions = [{name: "projects", onClick: () => {}, id:1}, {name: "teams", onClick: () => {},id:2}]
-    return <div>
+    return <div className={style.mainView}>
         <div className={style.userProfile}>
             <p>user profile</p>
         </div>
@@ -14,13 +14,9 @@ function Home() {
             </div>
             <div className={style.userViewContainer}>
                 <div className={style.userView}>
-
                 </div>
             </div>
-
-
         </div>
-
     </div>
 }
 
